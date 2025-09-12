@@ -38,6 +38,8 @@ function maxSubArrayBrute(arr, k) {
 }
 ```
 
-### Time Complexity: O(n \* k) — for each of ~n windows we spend O(k) to compute sum. Space Complexity: O(1) extra space.
+### Time Complexity:
 
-### This becomes inefficient when n is large (like 10^5) and k is significant. Sliding window optimizes it.
+O(n \* k) — for each of ~n windows we spend O(k) to compute sum. Space Complexity: O(1) extra space.
+
+This becomes inefficient when n is large (like 10^5) and k is significant. Sliding window optimizes it.
